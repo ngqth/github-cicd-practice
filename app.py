@@ -14,6 +14,10 @@ def divide(a, b):
     print(f"Dividing {a} / {b}")
     return a * 1/b
 
+def power(a, b):
+    print(f"Powering {a} ^ {b}")
+    return a ** b
+
 if __name__ == "__main__":
     print("Result:", add(2, 3))
     print("Result:", minus(5, 2))
