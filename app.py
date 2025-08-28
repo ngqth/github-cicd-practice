@@ -18,6 +18,10 @@ def power(a, b):
     print(f"Powering {a} ^ {b}")
     return a ** b
 
+def log(a, b):
+    print(f"Logging {a} and {b}")
+    return (a, b)
+
 if __name__ == "__main__":
     print("Result:", add(2, 3))
     print("Result:", minus(5, 2))
